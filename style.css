@@ -1,0 +1,23 @@
+body {
+    background-color: #f8f9fa; /* لون الخلفية */
+    height: 100vh; /* جعل الجسم يغطي الشاشة بالكامل */
+    margin: 0; /* إزالة الهوامش */
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.browser-window {
+    height: calc(100vh - 100px); /* ارتفاع النافذة ليكون كامل الشاشة بعد حساب الرأس والتذييل */
+}
+
+input {
+    height: 50px; /* تحديد ارتفاع المدخل */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
